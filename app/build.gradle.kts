@@ -77,11 +77,11 @@ android {
 
 dependencies {
 
-    implementation("androidx.core:core-ktx:1.13.1")
+    implementation("androidx.core:core-ktx:1.15.0")
     implementation("androidx.appcompat:appcompat:1.7.0")
-    implementation("androidx.constraintlayout:constraintlayout:2.1.4")
-    implementation("androidx.activity:activity-ktx:1.9.2")
-    implementation("androidx.fragment:fragment-ktx:1.8.4")
+    implementation("androidx.constraintlayout:constraintlayout:2.2.0")
+    implementation("androidx.activity:activity-ktx:1.9.3")
+    implementation("androidx.fragment:fragment-ktx:1.8.5")
 
     // Datastore
     implementation("androidx.datastore:datastore-preferences:1.1.1")
@@ -90,7 +90,7 @@ dependencies {
     implementation("androidx.core:core-splashscreen:1.0.1")
 
     // compose
-    val composeBom = platform("androidx.compose:compose-bom:2023.10.01")
+    val composeBom = platform("androidx.compose:compose-bom:2024.10.00")
     implementation(composeBom)
     androidTestImplementation(composeBom)
     implementation("androidx.compose.material3:material3")
@@ -101,24 +101,24 @@ dependencies {
     implementation("androidx.compose.material:material-icons-core")
     implementation("androidx.compose.material:material-icons-extended")
     implementation("androidx.compose.material3:material3-window-size-class")
-    implementation("androidx.activity:activity-compose:1.9.2")
-    implementation("androidx.navigation:navigation-compose:2.8.2")
-    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.6")
+    implementation("androidx.activity:activity-compose:1.9.3")
+    implementation("androidx.navigation:navigation-compose:2.8.3")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-compose:2.8.7")
     implementation("androidx.compose.runtime:runtime-livedata")
     implementation("com.google.accompanist:accompanist-swiperefresh:0.28.0")
     implementation("com.google.accompanist:accompanist-webview:0.32.0")
     implementation("io.coil-kt:coil:2.6.0")
     implementation("io.coil-kt:coil-compose:2.6.0")
     implementation("org.jetbrains.compose:compose-gradle-plugin:1.6.11")
-    implementation("androidx.fragment:fragment-compose:1.8.4")
+    implementation("androidx.fragment:fragment-compose:1.8.5")
 
     // Firebase dependencies
-    implementation(platform("com.google.firebase:firebase-bom:33.4.0"))
+    implementation(platform("com.google.firebase:firebase-bom:33.5.1"))
     implementation("com.google.firebase:firebase-analytics")
     implementation("com.google.firebase:firebase-crashlytics")
     implementation("com.google.firebase:firebase-firestore-ktx")
     implementation("com.google.firebase:firebase-functions-ktx")
-    implementation("com.google.firebase:firebase-auth-ktx:23.0.0")
+    implementation("com.google.firebase:firebase-auth-ktx:23.1.0")
     implementation("com.google.android.gms:play-services-auth:21.2.0")
 
     // Facebook auth dependency
@@ -146,7 +146,7 @@ dependencies {
     kapt("androidx.hilt:hilt-compiler:1.2.0")
 
     // Navigation components
-    val navVersion = "2.8.2"
+    val navVersion = "2.8.3"
     implementation("androidx.navigation:navigation-fragment-ktx:$navVersion")
     implementation("androidx.navigation:navigation-ui-ktx:$navVersion")
     implementation("androidx.navigation:navigation-dynamic-features-fragment:$navVersion")
@@ -155,9 +155,9 @@ dependencies {
     implementation("androidx.viewpager2:viewpager2:1.1.0")
 
     // Lifecycle components
-    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.6")
-    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.6")
-    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.6")
+    implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:2.8.7")
+    implementation("androidx.lifecycle:lifecycle-livedata-ktx:2.8.7")
+    implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.8.7")
 
     // Datastore
     implementation("androidx.datastore:datastore-preferences:1.1.1")
